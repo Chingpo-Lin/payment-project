@@ -1,0 +1,18 @@
+2022-07-02 16:13:41.398 ERROR[restartedMain]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:40 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field videoOrderService in com.example.paymentdemo.controller.OrderController required a bean of type 'com.example.paymentdemo.service.VideoOrderService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.paymentdemo.service.VideoOrderService' in your configuration.
+
